@@ -112,15 +112,7 @@ footer h1{
     font-family: 'Raleway', sans-serif;
 }
 
-#ieeeImage img{
-    width: 260px;
-    height: 320px;
-}
 
-#arxivImage img{
-    width: 260px;
-    height: 320px;
-}
 
 .publication{
     align-items: center;
@@ -135,4 +127,9 @@ footer h1{
     box-shadow: 10px 10px 50px gray;
     margin: 5%;
     border-radius: 7px;
+}
+
+.copyright-text{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.795);
 }
