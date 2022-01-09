@@ -82,10 +82,9 @@ footer{
     background-color: black;
     color:white;
     text-align: center;
-    
-    
+    padding: 5%;
 }
 
-.bottom{
+footer p{
     margin-bottom:0;
 }
