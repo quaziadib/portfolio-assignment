@@ -1,0 +1,91 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    text-align: justify;
+}
+
+
+h1{
+    font-size: 40px;
+}
+.orangered-color{
+    color: orangered;
+}
+
+.top-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,orangered);
+    border-image-slice: 1;
+    padding-left: 3%;
+}
+
+.link-button{
+    background-image: linear-gradient(salmon, tomato);
+    padding: .5em 1.25em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.flexible-container{
+    display: flex;
+    margin: 0 6%;
+}
+
+.half-width{
+    width: 50%;
+    margin: 5%;
+}
+.half-width p{
+    padding: 2em 0;
+    
+}
+ 
+.half-width img{
+    width: 95%;
+}
+
+.mission-container h1{
+    text-align: center;
+}
+
+.box-card{
+    margin: 2%;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.281),rgba(255, 68, 0, 0.603));
+    padding: 2em;
+    border-radius: 12px;
+
+}
+
+.box-card img{
+    width: 45%; 
+}
+
+#develop-bar{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 0 50%;
+}
+
+#community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 100% 100%;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    
+    
+}
+
+.bottom{
+    margin-bottom:0;
+}
