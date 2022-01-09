@@ -1,12 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+}
+
+p{
     text-align: justify;
 }
 
-
 h1{
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 800;
 }
 .orangered-color{
     color: orangered;
@@ -32,7 +35,7 @@ h1{
 
 .flexible-container{
     display: flex;
-    margin: 0 6%;
+    margin: 2% 5%;
 }
 
 .half-width{
@@ -54,11 +57,12 @@ h1{
 
 .box-card{
     margin: 2%;
-    background-image: linear-gradient(rgba(255, 166, 0, 0.281),rgba(255, 68, 0, 0.603));
     padding: 2em;
     border-radius: 12px;
 
 }
+
+
 
 .box-card img{
     width: 45%; 
@@ -77,14 +81,32 @@ h1{
     background-size: 18%;
     background-position: 100% 100%;
 }
+#darkcolor{
+    background-image: linear-gradient(rgba(22, 69, 122, 0.404),rgba(153, 15, 22, 0.363));
+}
+
+#normalcolor{
+    background-image: linear-gradient(rgba(10, 3, 105, 0.274),rgba(177, 3, 55, 0.26));
+}
+
+#lightcolor{
+    background-image: linear-gradient(rgba(120, 6, 155, 0.205),rgba(123, 5, 233, 0.171));
+}
 
 footer{
+    margin-top: 2%;
     background-color: black;
     color:white;
     text-align: center;
     padding: 5%;
+    
 }
 
 footer p{
     margin-bottom:0;
+    text-align: center;
+}
+
+footer h1{
+    font-family: 'Raleway', sans-serif;
 }
