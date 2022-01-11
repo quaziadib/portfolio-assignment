@@ -64,12 +64,11 @@ h1{
 }
 
 
-
 .box-card img{
     width: 45%; 
 }
 
-#develop-bar{
+.develop-bar{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 18%;
@@ -77,11 +76,9 @@ h1{
 }
 
 #community{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 18%;
     background-position: 100% 100%;
 }
+
 #darkcolor{
     background-image: linear-gradient(rgba(22, 69, 122, 0.295),rgba(153, 15, 22, 0.301));
 }
